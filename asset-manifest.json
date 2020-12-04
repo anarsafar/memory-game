@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.644c220d.chunk.css",
+    "main.js": "/memory-game/static/js/main.8ccd1ad7.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.8ccd1ad7.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.a1f811c6.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.a1f811c6.js.map",
+    "static/js/2.6ef03000.chunk.js": "/memory-game/static/js/2.6ef03000.chunk.js",
+    "static/js/2.6ef03000.chunk.js.map": "/memory-game/static/js/2.6ef03000.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "precache-manifest.efd948128d16be1640134748a05f9e22.js": "/memory-game/precache-manifest.efd948128d16be1640134748a05f9e22.js",
+    "service-worker.js": "/memory-game/service-worker.js",
+    "static/css/main.644c220d.chunk.css.map": "/memory-game/static/css/main.644c220d.chunk.css.map",
+    "static/js/2.6ef03000.chunk.js.LICENSE.txt": "/memory-game/static/js/2.6ef03000.chunk.js.LICENSE.txt",
+    "static/media/Luffy.png": "/memory-game/static/media/Luffy.4c243461.png",
+    "static/media/Nami.png": "/memory-game/static/media/Nami.56e3e48d.png",
+    "static/media/Sanji.png": "/memory-game/static/media/Sanji.dd555cc4.png",
+    "static/media/Usopp.png": "/memory-game/static/media/Usopp.6a39bfa7.png",
+    "static/media/brooks.png": "/memory-game/static/media/brooks.67381f9a.png",
+    "static/media/App.css": "/memory-game/static/media/onepiece.4f52850f.png",
+    "static/media/zorro.png": "/memory-game/static/media/zorro.a90fd395.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1f811c6.js",
+    "static/js/2.6ef03000.chunk.js",
+    "static/css/main.644c220d.chunk.css",
+    "static/js/main.8ccd1ad7.chunk.js"
+  ]
+}
