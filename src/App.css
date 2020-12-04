@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.login-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 40vw;
+  box-shadow: 12px 12px 10px gray;
+  background-color: #5d6d7e;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.login label {
+  font-size: 20px;
+}
+.login input[type="text"] {
+  padding: 5px 25px;
+  margin: 20px 0;
+}
+.login small {
+  margin-bottom: 20px;
+  display: block;
+}
+.login button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2980b9;
+}
+.navbar {
+  background-color: #5d6d7e;
+  color: #fff;
+  overflow: hidden;
+  padding: 20px;
+}
+.navbar div {
+  float: left;
+  width: 33%;
+}
+.score {
+  text-align: right;
+}
+.player-name {
+  text-align: center;
+}
+.game {
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 525px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 90px;
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-blank {
+  background: url("./components/images/onepiece.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 90px;
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+.end-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 40vw;
+  background:#5d6d7e;
+  color: white;
+  box-shadow: 12px 12px 10px gray;
+}
+.message button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2980b9;
+}
+@media only screen and (max-width: 800px) {
+  .image {
+    height:90px;
+    width: 90px;
+    margin: 5px;
+  }
+  .message {
+    width: 400px;
+  }
+  .login {
+    width: 400px;
+  }
+}
