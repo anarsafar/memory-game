@@ -20,4 +20,4 @@ You will also see any lint errors in the console.
 
 ## Live Demo
 
-[memory-game-demo](https://anarseferrov.github.io/memory-game/)
+[memory-game-demo](https://anarsafar.github.io/memory-game/)
